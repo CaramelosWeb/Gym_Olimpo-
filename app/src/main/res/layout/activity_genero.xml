@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/genero"
+    tools:context=".genero">
+
+    <ImageButton
+        android:id="@+id/btnIHombre"
+        android:layout_width="350dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIMujer"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/hombreg" />
+
+    <ImageButton
+        android:id="@+id/btnIMujer"
+        android:layout_width="347dp"
+        android:layout_height="144dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="226dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCerrar"
+        app:srcCompat="@drawable/mujerg" />
+
+    <TextView
+        android:id="@+id/txtGenero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="53dp"
+        android:text="@string/genero"
+        android:textColor="@color/genero"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnIMujer"
+        app:layout_constraintEnd_toEndOf="@+id/btnIMujer"
+        app:layout_constraintStart_toStartOf="@+id/btnIMujer"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="139dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtGenero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/buton"
+        android:text="@string/cerrar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnIMujer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

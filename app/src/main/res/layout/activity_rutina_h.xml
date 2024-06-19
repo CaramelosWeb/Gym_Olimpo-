@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rutina"
+    tools:context=".rutinaH">
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="@color/buton"
+        android:text="@string/regeresa"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnlunes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="75dp"
+        android:text="@string/rutina"
+        android:textColor="@color/rutina"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnregresar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="174dp"
+        android:text="@string/hombre"
+        android:textColor="@color/genero"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmiercoles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnlunes"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/lunes"
+        android:text="@string/lunes"
+        android:textColor="@color/txtlunes"
+        app:layout_constraintBottom_toTopOf="@+id/btnjueves"
+        app:layout_constraintEnd_toStartOf="@+id/btnmiercoles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregresar" />
+
+    <Button
+        android:id="@+id/btnmartes"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/martes"
+        android:text="@string/martes"
+        android:textColor="@color/txtmartes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmiercoles"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/miercoles"
+        android:text="@string/miercoles"
+        android:textColor="@color/txtmiercoles"
+        app:layout_constraintBottom_toTopOf="@+id/btnsabado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnlunes"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnjueves"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/jueves"
+        android:text="@string/jueves"
+        android:textColor="@color/txtjueves"
+        app:layout_constraintBottom_toTopOf="@+id/btndomingo"
+        app:layout_constraintEnd_toStartOf="@+id/btnsabado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlunes" />
+
+    <Button
+        android:id="@+id/btnviernes"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="@color/viernes"
+        android:text="@string/viernes"
+        android:textColor="@color/txtviernes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsabado"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="@color/sabado"
+        android:text="@string/sabado"
+        android:textColor="@color/txtsabado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnjueves"
+        app:layout_constraintTop_toBottomOf="@+id/btnmiercoles" />
+
+    <Button
+        android:id="@+id/btndomingo"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="@color/domingo"
+        android:text="@string/domingo"
+        android:textColor="@color/txtdomingo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnlunes"
+        app:layout_constraintStart_toStartOf="@+id/btnlunes"
+        app:layout_constraintTop_toBottomOf="@+id/btnjueves" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

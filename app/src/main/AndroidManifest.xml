@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/log"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/log"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login_Olimpo"
+        tools:targetApi="31">
+        <activity
+            android:name=".DomingoH"
+            android:exported="false" />
+        <activity
+            android:name=".SabadoH"
+            android:exported="false" />
+        <activity
+            android:name=".ViernesH"
+            android:exported="false" />
+        <activity
+            android:name=".JuevesH"
+            android:exported="false" />
+        <activity
+            android:name=".MiercolesH"
+            android:exported="false" />
+        <activity
+            android:name=".MartesH"
+            android:exported="false" />
+        <activity
+            android:name=".LunesH"
+            android:exported="false" />
+        <activity
+            android:name=".DomingoM"
+            android:exported="false" />
+        <activity
+            android:name=".SabadoM"
+            android:exported="false" />
+        <activity
+            android:name=".ViernesM"
+            android:exported="false" />
+        <activity
+            android:name=".JuevesM"
+            android:exported="false"
+            android:label="@string/title_activity_jueves_m" />
+        <activity
+            android:name=".MiercolesM"
+            android:exported="false" />
+        <activity
+            android:name=".MartesM"
+            android:exported="false"
+            android:theme="@style/Theme.Login_Olimpo" />
+        <activity
+            android:name=".LunesM"
+            android:exported="false" />
+        <activity
+            android:name=".rutinaH"
+            android:exported="false" />
+        <activity
+            android:name=".rutinaM"
+            android:exported="false" />
+        <activity
+            android:name=".genero"
+            android:exported="false" />
+        <activity
+            android:name=".registro_user"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

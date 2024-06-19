@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buton">#FFB900</color>
+    <color name="entridatos">#FFE800</color>
+    <color name="botonimg">#404040</color>
+    <color name="registro">#FFFFFF</color>
+    <color name="genero">#A55555</color>
+    <color name="rutina">#5567A5</color>
+    <color name="lunes">#FEFFBA</color>
+    <color name="martes">#DDFAFF</color>
+    <color name="miercoles">#FFFAAF</color>
+    <color name="jueves">#C7FFC6</color>
+    <color name="viernes">#FFDFDF</color>
+    <color name="sabado">#D2FFCF</color>
+    <color name="domingo">#EAF6FF</color>
+    <color name="txtlunes">#CF2727</color>
+    <color name="txtmartes">#FF8A00</color>
+    <color name="txtmiercoles">#3AD84F</color>
+    <color name="txtjueves">#005EFF</color>
+    <color name="txtviernes">#6900C6</color>
+    <color name="txtsabado">#FF00BF</color>
+    <color name="txtdomingo">#EB00FF</color>
+</resources>
